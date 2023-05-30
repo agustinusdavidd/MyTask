@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <!-- This is the actual spinner background -->
+        <selector >
+            <item android:drawable="@drawable/box_edit_text"/>
+        </selector>
+    </item>
+
+    <!-- This is the spinner drawable, use your custom drawable aswell. android:right does the magin to separate this drawable from  the spinner content-->
+    <item android:drawable="@drawable/ic_dropdown"
+        android:gravity="center_vertical|right"
+        android:right="16dp"/>
+</layer-list>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="5dp"
+    android:id="@+id/card_task">
+
+    <LinearLayout
+        android:layout_width="110dp"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:background="@drawable/border_task_list"
+        android:layout_gravity="center|left">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meeting"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_contributor_1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/img_chris"
+            android:layout_marginEnd="5dp"
+            android:layout_gravity="center"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_contributor_2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/img_chris"
+            android:layout_marginEnd="5dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

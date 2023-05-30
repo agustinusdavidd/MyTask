@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginTop="2dp"
+    android:layout_marginEnd="2dp"
+    app:cardCornerRadius="5dp"
+    android:id="@+id/card_time">
+
+    <LinearLayout
+        android:id="@+id/cardTimeDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center|left">
+
+        <TextView
+            android:id="@+id/tv_hour_day"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:text="00.00"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_local"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:text="WIB"
+            android:gravity="center"
+            android:layout_marginEnd="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:background="@drawable/border_task_list"
+            android:orientation="horizontal"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:id="@+id/event1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:textSize="12sp"
+                android:lines="2"
+                android:textColor="@color/white"
+                android:text="Coding"
+                android:layout_marginEnd="5dp"
+                android:id="@+id/task1Tv"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/img_chris"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                android:id="@+id/contributor11Iv"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/img_chris"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                android:id="@+id/contributor12Iv"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/img_chris"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                android:id="@+id/contributor13Iv"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:background="@drawable/border_task_list"
+            android:orientation="horizontal"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:id="@+id/event2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:textSize="12sp"
+                android:lines="2"
+                android:textColor="@color/white"
+                android:text="Meeting"
+                android:layout_marginEnd="5dp"
+                android:id="@+id/task2Tv"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/img_chris"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                android:id="@+id/contributor21Iv"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/img_chris"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                android:id="@+id/contributor22Iv"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/img_chris"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                android:id="@+id/contributor23Iv"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

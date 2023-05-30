@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:menuCategory="container">
+        <item
+            android:id="@+id/menuCalendar"
+            android:icon="@drawable/ic_calendar"
+            android:title="Menu Calendar"
+            app:showAsAction="ifRoom"/>
+        <item
+            android:id="@+id/menuNotification"
+            android:icon="@drawable/ic_notification"
+            android:title="Menu Notification"
+            app:showAsAction="ifRoom"/>
+        <item
+            android:id="@+id/MenuMoreSetting"
+            android:icon="@drawable/ic_menu"
+            android:title="More Setting"
+            app:showAsAction="ifRoom"/>
+    </group>
+</menu>
